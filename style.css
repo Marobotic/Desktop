@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 15px Cambria, Serif;
+    background: url(images/firerocket.jpg) no-repeat;
+}
+
+@font-face {
+    font-family: coffee;
+    src: url(fonts/kenyan coffee bd.ttf);
+}
+
+@font-face {
+    font-family: book;
+    src: url(fonts/Quicksand_Book.otf);
+}
+
+.Taskbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    display: block;
+    background-color: #000000;
+    opacity: 0.7
+}
+
+.start_button {
+    width: 50px;
+    height: 50px;
+}
+
+.Taskbar_PopUp {
+    position: fixed;
+    bottom: 52;
+    display: block;
+    width: 200px;
+    height: 400px;
+    background-color: #000000;
+    opacity: 0.7;
+    margin-left: 2px;
+}
+
+.time {
+    position: fixed;
+    bottom: 10;
+    left: 93%;
+    display: block;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: book;
+}
+
+.main_Window {
+    position: fixed;
+    top: 10%;
+    right: 20%;
+    width: 800px;
+    height: 500px;
+    background-color: #000000;
+    opacity: 0.7;
+    visibility: hidden;
+}
+
+.main_item {
+    color: #000000;
+    font-size: 20px;
+    margin: 40px;
+    height: 70px;
+    width: 150px;
+}
+
+.top_text {
+    position: fixed;
+    color: #FFFFFF;
+    font-size: 45px;
+    left: 40%;
+    font-family: book;
+}
+
+.Taskbar_PopUp Button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: #191717;
+    border: 1px solid black;
+    color: #FFFFFF;
+}
+
+.Taskbar_PopUp button:hover {
+    background-color: #474545;
+}
+
+.Names {}
+
+.Edit {}
+
+.texts {
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 30px;
+    resize: none;
+}
+
+.divhastext {
+    position: fixed;
+    top: 10%;
+    right: 20%;
+    width: 800px;
+    height: 500px;
+    background-color: #000000;
+}
+
+.ragnarok_div {
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    position: fixed;
+    top: 30%;
+    left: 15%;
+    height: 200px;
+    width: 600px;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+}
+
+.rag {}
